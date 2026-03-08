@@ -1,5 +1,6 @@
 import { useMemo, useState, useEffect } from 'react';
 import type { ImgHTMLAttributes, ReactNode } from 'react';
+import { toAssetUrl } from '../utils/assetUrl';
 
 interface ImageWithFallbackProps extends Omit<ImgHTMLAttributes<HTMLImageElement>, 'src'> {
   src?: string | string[];
@@ -9,7 +10,7 @@ interface ImageWithFallbackProps extends Omit<ImgHTMLAttributes<HTMLImageElement
 const ImageWithFallback: React.FC<ImageWithFallbackProps> = ({ src, fallback = null, ...imgProps }) => {
   const sources = useMemo(() => {
     if (!src) return [];
-    return (Array.isArray(src) ? src : [src]).filter(Boolean);
+    return (Array.isArray(src) ? src : [src]).filter(Boolean).map((value) => toAssetUrl(value));
   }, [src]);
 
   const [currentIndex, setCurrentIndex] = useState(0);

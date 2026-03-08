@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, useCallback } from 'react';
 import type { CSSProperties } from 'react';
 import './LifeRoadmap.css';
 import ImageWithFallback from './ImageWithFallback';
+import { toAssetUrl } from '../utils/assetUrl';
 
 interface Milestone {
   year: string;
@@ -249,7 +250,7 @@ const LifeRoadmap: React.FC<LifeRoadmapProps> = ({ milestones, theme, roadmapPho
 
     let cancelled = false;
 
-    fetch(roadmapSvgSrc)
+    fetch(toAssetUrl(roadmapSvgSrc))
       .then((response) => response.text())
       .then((svgText) => {
         if (cancelled) return;
@@ -280,7 +281,7 @@ const LifeRoadmap: React.FC<LifeRoadmapProps> = ({ milestones, theme, roadmapPho
 
     let cancelled = false;
 
-    fetch('/Dariya line.svg')
+    fetch(toAssetUrl('/Dariya line.svg'))
       .then((response) => response.text())
       .then((svgText) => {
         if (cancelled) return;

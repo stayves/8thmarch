@@ -46,27 +46,27 @@ const DariyaPage: React.FC = () => {
       roadmapPhotos={DARIYA_PAGE_PHOTOS.roadmap}
       roadmapSvgSrc="/Dariya line.svg"
       scriptBackgroundSvg="/flowers/Dariya script.svg"
-      greeting="Dear Dariya, you are the light that fills our home with joy and laughter. Your smile brightens even the cloudiest days, and your kindness makes the world a better place. Today we celebrate you — our wonderful sister, our precious daughter, our little sunshine."
+      greeting="Dear Dariya, our bright and beautiful girl, you fill our home with laughter, tenderness, and endless energy. We are so proud of how you are growing in 7th grade at NIS IB School, how bravely you train in gymnastics and artistic pursuits, and how eagerly you keep learning new things. You have such a kind heart, and your love for Laki shows how gentle and caring you are."
       appreciation={[
-        'Your laughter is the most beautiful melody in our home. Every time you giggle, the whole house lights up with warmth and happiness.',
-        'You have the biggest heart we know. The way you care about everyone around you — your family, your friends, even strangers — shows what a beautiful soul you are.',
-        'Your curiosity and eagerness to learn inspire us every single day. Watching you grow and discover the world is one of our greatest joys.',
-        'You bring our family closer together. You are the bond that connects us all, and our love for you unites us in the most beautiful way.',
-        'Your creativity and imagination know no bounds. The drawings, the stories, the ideas — they remind us to see magic in everyday life.',
-        'You make us want to be better people. Your innocence and pure heart remind us what truly matters in this world.',
+        'You are so dedicated to your studies. Even when you feel tired, you keep going and show us what real discipline looks like.',
+        'Your curiosity is one of your greatest gifts. You are always ready to explore, ask questions, and learn something new.',
+        'Watching you in gymnastics and artistic classes is pure joy. Your focus, grace, and creativity are truly special.',
+        'You have a warm and loving heart. The way you care for Laki and everyone around you shows your beautiful soul.',
+        'Your sense of style makes you uniquely you. Your love for Louis Vuitton and Dior always comes with confidence and sparkle.',
+        'You bring light into every room. Our family is happier, closer, and more complete because of you.',
       ]}
       qualities={[
         'Kind-hearted',
+        'Curious learner',
+        'Disciplined',
         'Creative',
-        'Joyful',
-        'Curious',
+        'Graceful',
         'Brave',
         'Caring',
-        'Smart',
-        'Playful',
-        'Loving',
-        'Inspiring',
+        'Stylish',
+        'Joyful',
         'Thoughtful',
+        'Loving',
         'Beautiful inside and out',
       ]}
       milestones={[
@@ -86,16 +86,16 @@ const DariyaPage: React.FC = () => {
         },
         {
           year: 'Growing Up',
-          title: 'First Day of School',
+          title: 'NIS IB Chapter',
           description:
-            'With your little backpack and the biggest smile, you walked into school ready to conquer the world. We were so proud (and maybe cried a little).',
+            'Seeing you study in 7th grade at NIS IB School makes us incredibly proud. You work hard, stay focused, and keep surprising us with your growth.',
           emoji: '🎒',
         },
         {
           year: 'Discovery',
-          title: 'Finding Your Passions',
+          title: 'Gymnastics & Art',
           description:
-            'Watching you discover what makes your heart sing — your hobbies, your talents, your dreams. Every new passion makes us love you even more.',
+            'You discovered passions that let your spirit shine: gymnastics and artistic activities. Every class shows your dedication, creativity, and courage.',
           emoji: '⭐',
         },
         {
@@ -107,9 +107,9 @@ const DariyaPage: React.FC = () => {
         },
         {
           year: 'Today',
-          title: 'The Amazing Person You Are',
+          title: 'Your Bright Heart',
           description:
-            'Look at how far you have come! You fill every room with sunshine and make everyone around you happier. We are endlessly proud of you.',
+            'You are growing into a smart, kind, and determined young lady. You dream big, work hard, adore Laki, and make everyone around you feel loved.',
           emoji: '🌟',
         },
         {

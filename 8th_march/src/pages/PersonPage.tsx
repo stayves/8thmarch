@@ -10,6 +10,7 @@ import SpiralLines from '../components/SpiralLines';
 import FloatingPetals from '../components/FloatingPetals';
 import LifeRoadmap from '../components/LifeRoadmap';
 import ImageWithFallback from '../components/ImageWithFallback';
+import { toAssetUrl } from '../utils/assetUrl';
 import './PersonPage.css';
 
 interface Milestone {
@@ -177,7 +178,7 @@ const PersonPage: React.FC<PersonPageProps> = ({
                 <img
                   key={`left-${src}-${index}`}
                   className="avatar-bg-flower"
-                  src={src}
+                  src={toAssetUrl(src)}
                   alt=""
                   loading="lazy"
                 />
@@ -188,7 +189,7 @@ const PersonPage: React.FC<PersonPageProps> = ({
                 <img
                   key={`right-${src}-${index}`}
                   className="avatar-bg-flower"
-                  src={src}
+                  src={toAssetUrl(src)}
                   alt=""
                   loading="lazy"
                 />
@@ -225,7 +226,7 @@ const PersonPage: React.FC<PersonPageProps> = ({
             <div
               className="hero-script-bg"
               style={{
-                backgroundImage: `url("${encodeURI(scriptBackgroundSvg)}")`,
+                backgroundImage: `url("${encodeURI(toAssetUrl(scriptBackgroundSvg))}")`,
               }}
               aria-hidden="true"
             />
@@ -339,7 +340,7 @@ const PersonPage: React.FC<PersonPageProps> = ({
                 <img
                   key={`footer-left-${src}-${index}`}
                   className="footer-bg-flower"
-                  src={src}
+                  src={toAssetUrl(src)}
                   alt=""
                   loading="lazy"
                 />
@@ -350,7 +351,7 @@ const PersonPage: React.FC<PersonPageProps> = ({
                 <img
                   key={`footer-right-${src}-${index}`}
                   className="footer-bg-flower"
-                  src={src}
+                  src={toAssetUrl(src)}
                   alt=""
                   loading="lazy"
                 />

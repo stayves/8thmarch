@@ -27,6 +27,7 @@ const AKKU_PAGE_PHOTOS = {
     '/Akku page/21stPhoto.jpg',
     '/Akku page/22thPhoto.jpg',
     '/Akku page/23thPhoto.jpg',
+    '/Akku page/24thPhoto.jpg',
   ],
 };
 
@@ -40,23 +41,24 @@ const AkkuPage: React.FC = () => {
       roadmapPhotos={AKKU_PAGE_PHOTOS.roadmap}
       roadmapSvgSrc="/Akku Line new.svg"
       scriptBackgroundSvg="/flowers/Akku nice script.svg"
-      greeting="Dearest Akku, you are the heart and soul of our family. Your love is the foundation upon which our happiness is built. Your strength inspires us, your tenderness heals us, and your wisdom guides us. Today and every day, we celebrate the incredible woman you are."
+      greeting="Dearest Akku, you are the heart of our family and our everyday superhero. At home, you give us warmth, wisdom, and care; at work, as Director of Regulatory Affairs at Air Astana, you are strong, brilliant, and deeply respected. We admire your elegance, your values, and the way your love keeps all of us grounded."
       appreciation={[
-        'Your unconditional love is the greatest gift we have ever received. No matter what happens, we know we can always count on your warm embrace and loving words.',
-        'You sacrifice so much for our family without ever asking for anything in return. The meals you cook, the nights you stay up, the worries you carry — we see it all and are grateful beyond words.',
-        'Your strength is extraordinary. You hold our family together through every challenge, every storm, and every difficult moment. You are our rock.',
-        'The way you believe in each of us gives us the confidence to chase our dreams. Your faith in us makes us believe we can do anything.',
-        'You have the most beautiful heart. Your compassion, your patience, your generosity — they make our home the warmest place on earth.',
-        'You taught us what love truly means. Not just in words, but in every action, every sacrifice, every moment you dedicate to making our lives beautiful.',
+        'At Air Astana, you handle difficult tariff disputes with remarkable confidence and intelligence. Watching your professionalism is truly inspiring.',
+        'You are strong and fearless, yet always elegant. Even when you are a little spiky, your heart stays fair, honest, and full of dignity.',
+        'Your love for family is endless. You support relatives with open hands and a generous heart, and you never let anyone feel alone.',
+        'You bring care into everyday life — through your words, your presence, and all the small things that make our home feel safe and warm.',
+        'You know how to recharge and enjoy life: swimming at Fitness Palace, traveling, and collecting beautiful memories with us.',
+        'Your favorite dishes, fish and tom yum, are part of so many cozy moments together. With you, every meal feels special.',
       ]}
       qualities={[
         'Selfless',
         'Strong',
+        'Professional',
         'Compassionate',
         'Wise',
         'Nurturing',
         'Patient',
-        'Beautiful',
+        'Elegant',
         'Graceful',
         'Resilient',
         'Loving',
@@ -94,9 +96,9 @@ const AkkuPage: React.FC = () => {
         },
         {
           year: 'Challenges',
-          title: 'Standing Strong Together',
+          title: 'Strength in Every Battle',
           description:
-            'Through every difficult time, you never wavered. Your courage and determination showed us what true strength looks like.',
+            'Whether at home or in complex tariff disputes at work, you never back down from what is right. Your courage and clarity inspire all of us.',
           emoji: '💪',
         },
         {
@@ -108,9 +110,9 @@ const AkkuPage: React.FC = () => {
         },
         {
           year: 'Today',
-          title: 'The Woman We Admire',
+          title: 'Our Elegant Superhero',
           description:
-            'Today you are more beautiful, more strong, and more amazing than ever. We look at you and see everything we aspire to be.',
+            'Today we see a woman of strength, values, and grace: a caring mother, a brilliant professional, and the loving center of our family.',
           emoji: '👑',
         },
         {
