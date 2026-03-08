@@ -1,0 +1,5 @@
+{
+  "installCommand": "cd 8th_march && npm install --include=dev",
+  "buildCommand": "cd 8th_march && npm run build",
+  "outputDirectory": "8th_march/dist"
+}
