@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pink-light: #fce4ec;
+  --pink-pastel: #f8bbd0;
+  --pink-medium: #f48fb1;
+  --pink-accent: #ec407a;
+
+  --burgundy-dark: #4a0020;
+  --burgundy: #6d0035;
+  --burgundy-medium: #8e0045;
+  --burgundy-light: #b71c5c;
+  --burgundy-glow: #d81b60;
+
+  --gold: #d4a574;
+  --gold-light: #e8c9a0;
+  --cream: #fdf6f0;
+  --white: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Lora', serif;
+  overflow-x: hidden;
+  background: var(--cream);
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+.script-font {
+  font-family: 'Great Vibes', cursive;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--pink-light);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--pink-accent), var(--burgundy));
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
